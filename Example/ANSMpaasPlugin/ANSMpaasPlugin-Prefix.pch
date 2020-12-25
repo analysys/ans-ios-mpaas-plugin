@@ -1,0 +1,34 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    @import UIKit;
+    @import Foundation;
+#endif
+
+// MPAAS HEADERS BEGIN
+// This part is maintained by MPaaS plugin automatically. 
+#ifdef __OBJC__
+
+#import "ANSMpaasPlugin_Example-mPaaS-Headers.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <AnalysysAgent/AnalysysAgent.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+
+
+#import "AnalysysHUD.h"
+#import "UIViewController+Alert.h"
+#import "AnalysysEnum.h"
+#import "AnalysysJson.h"
+#import "UIColor+ColorChange.h"
+#endif
+// MPAAS HEADERS END

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>JsApiRuntime</key>
+	<dict>
+		<key>JsApis</key>
+		<array>
+			<dict>
+				<key>jsApi</key>
+				<string>isHybrid</string>
+				<key>name</key>
+				<string>AnalysysJsApi4Hybird</string>
+			</dict>
+			<dict>
+				<key>jsApi</key>
+				<string>AnalysysAgentGetEventList</string>
+				<key>name</key>
+				<string>AnalysysJsApi4EventList</string>
+			</dict>
+			<dict>
+				<key>jsApi</key>
+				<string>AnalysysAgentGetProperty</string>
+				<key>name</key>
+				<string>AnalysysJsApi4Property</string>
+			</dict>
+			<dict>
+				<key>jsApi</key>
+				<string>AnalysysAgentTrack</string>
+				<key>name</key>
+				<string>AnalysysJsApi4Track</string>
+			</dict>
+		</array>
+	</dict>
+	<key>PluginRuntime</key>
+	<dict>
+		<key>Plugins</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>AnalysysPlugin4WKWebView</string>
+				<key>scope</key>
+				<string>scene</string>
+				<key>events</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>-</string>
+						<key>useCapture</key>
+						<false/>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

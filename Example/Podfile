@@ -1,0 +1,26 @@
+plugin "cocoapods-mPaaS"
+
+source "https://code.aliyun.com/mpaas-public/podspecs.git"
+source 'https://github.com/CocoaPods/Specs.git'
+
+mPaaS_baseline '10.1.68'  # 请将 x.x.x 替换成真实基线版本
+mPaaS_version_code 22   # This line is maintained by MPaaS plugin automatically. Please don't modify.
+platform :ios, '9.0'
+
+target 'ANSMpaasPlugin_Example' do
+  
+  remove_pod "mPaaS_MBProgressHud"
+  
+  mPaaS_pod 'mPaaS_Nebula'
+  pod 'ANSMpaasPlugin', :path => '../'
+  pod 'AnalysysAgent', '4.5.4' 
+  pod 'Bugly'
+  pod 'IQKeyboardManager'
+  pod 'MBProgressHUD'
+
+  target 'ANSMpaasPlugin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

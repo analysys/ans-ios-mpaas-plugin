@@ -1,0 +1,1322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B3CADCFD496D8B7BD6DBB5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F4530638F29712970A4809 /* CoreMotion.framework */; };
+		0E9830CDAE7AE53F429E83BA /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5DB0CBE71771BB05DFF5905 /* yw_1222.jpg */; };
+		16358D6020D6B9D9F95C8441 /* MPaaSInterface+ANSMpaasPlugin_Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E4634F96A551658BE96C80 /* MPaaSInterface+ANSMpaasPlugin_Example.m */; };
+		1FD22A6F6BFA71B2D07359F7 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C900F2884272260E62FEE4 /* DemoViewController.m */; };
+		2C55644BDCB72BC7BC4A6F13 /* MPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA505FFABD6762623C65F7 /* MPTabBarController.m */; };
+		3240E637B3F80451E1B05396 /* Images_mPaaS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407CC49100BBE72F0DB43911 /* Images_mPaaS.xcassets */; };
+		3551847939B679909D69AB92 /* libPods-ANSMpaasPlugin_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA2F92F18910854F730D1C1 /* libPods-ANSMpaasPlugin_Tests.a */; };
+		45FC0F10405F230B93825A8E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB7683A18527F1C57920C9 /* WebKit.framework */; };
+		4861FBF92580B45100C3554A /* TestHtml in Resources */ = {isa = PBXBuildFile; fileRef = 4861FBF82580B45100C3554A /* TestHtml */; };
+		48AC588E2591CB0A004DFF3A /* AnalysysButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58052591CB09004DFF3A /* AnalysysButton.m */; };
+		48AC588F2591CB0A004DFF3A /* AnalysysSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58062591CB09004DFF3A /* AnalysysSwitch.m */; };
+		48AC58902591CB0A004DFF3A /* UIColor+ColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC580A2591CB09004DFF3A /* UIColor+ColorChange.m */; };
+		48AC58912591CB0A004DFF3A /* UIAlertController+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC580B2591CB09004DFF3A /* UIAlertController+Extended.m */; };
+		48AC58922591CB0A004DFF3A /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC580C2591CB09004DFF3A /* UIViewController+Alert.m */; };
+		48AC58932591CB0A004DFF3A /* ANSConfigVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58122591CB09004DFF3A /* ANSConfigVC.xib */; };
+		48AC58942591CB0A004DFF3A /* ANSConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58132591CB09004DFF3A /* ANSConfigVC.m */; };
+		48AC58952591CB0A004DFF3A /* AnalysysLogDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58152591CB09004DFF3A /* AnalysysLogDetailVC.m */; };
+		48AC58962591CB0A004DFF3A /* AnalysysLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58172591CB09004DFF3A /* AnalysysLogData.m */; };
+		48AC58972591CB0A004DFF3A /* AnalysysLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58182591CB09004DFF3A /* AnalysysLogCell.m */; };
+		48AC58982591CB0A004DFF3A /* AnalysysLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC581A2591CB09004DFF3A /* AnalysysLogVC.m */; };
+		48AC58992591CB0A004DFF3A /* AnalysysLogHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC581B2591CB09004DFF3A /* AnalysysLogHeaderView.xib */; };
+		48AC589A2591CB0A004DFF3A /* AnalysysLogDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC581C2591CB09004DFF3A /* AnalysysLogDetailVC.xib */; };
+		48AC589B2591CB0A004DFF3A /* AnalysysLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC581D2591CB09004DFF3A /* AnalysysLogManager.m */; };
+		48AC589C2591CB0A004DFF3A /* AnalysysLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC581E2591CB09004DFF3A /* AnalysysLogCell.xib */; };
+		48AC589D2591CB0A004DFF3A /* AnalysysLogHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58232591CB09004DFF3A /* AnalysysLogHeaderView.m */; };
+		48AC589E2591CB0A004DFF3A /* MainModuleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58252591CB0A004DFF3A /* MainModuleVC.xib */; };
+		48AC589F2591CB0A004DFF3A /* MainModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58262591CB0A004DFF3A /* MainModuleVC.m */; };
+		48AC58A02591CB0A004DFF3A /* HeatMapFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58292591CB0A004DFF3A /* HeatMapFirstVC.m */; };
+		48AC58A12591CB0A004DFF3A /* HeatMapFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC582B2591CB0A004DFF3A /* HeatMapFirstVC.xib */; };
+		48AC58A22591CB0A004DFF3A /* HeatMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC582C2591CB0A004DFF3A /* HeatMapVC.xib */; };
+		48AC58A32591CB0A004DFF3A /* HeatMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC582E2591CB0A004DFF3A /* HeatMapVC.m */; };
+		48AC58A42591CB0A004DFF3A /* TrackingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58302591CB0A004DFF3A /* TrackingVC.m */; };
+		48AC58A52591CB0A004DFF3A /* TrackingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58312591CB0A004DFF3A /* TrackingVC.xib */; };
+		48AC58A62591CB0A004DFF3A /* ANSWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58352591CB0A004DFF3A /* ANSWKWebViewController.xib */; };
+		48AC58A72591CB0A004DFF3A /* ANSWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58362591CB0A004DFF3A /* ANSWKWebViewController.m */; };
+		48AC58A82591CB0A004DFF3A /* HybridVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58382591CB0A004DFF3A /* HybridVC.xib */; };
+		48AC58A92591CB0A004DFF3A /* HybridVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58392591CB0A004DFF3A /* HybridVC.m */; };
+		48AC58AA2591CB0A004DFF3A /* ANSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC583A2591CB0A004DFF3A /* ANSWebViewController.m */; };
+		48AC58AB2591CB0A004DFF3A /* ANSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC583C2591CB0A004DFF3A /* ANSWebViewController.xib */; };
+		48AC58AC2591CB0A004DFF3A /* ANSBindTableViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58402591CB0A004DFF3A /* ANSBindTableViewVC.xib */; };
+		48AC58AD2591CB0A004DFF3A /* ANSBindCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58432591CB0A004DFF3A /* ANSBindCollectionCell.xib */; };
+		48AC58AE2591CB0A004DFF3A /* ANSBindNormalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58452591CB0A004DFF3A /* ANSBindNormalVC.xib */; };
+		48AC58AF2591CB0A004DFF3A /* ANSBindTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58462591CB0A004DFF3A /* ANSBindTableViewVC.m */; };
+		48AC58B02591CB0A004DFF3A /* ANSBindCollectionViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58472591CB0A004DFF3A /* ANSBindCollectionViewVC.xib */; };
+		48AC58B12591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58482591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.m */; };
+		48AC58B22591CB0A004DFF3A /* ANSTableHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58492591CB0A004DFF3A /* ANSTableHeaderFooterView.xib */; };
+		48AC58B32591CB0A004DFF3A /* ANSBindCollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC584A2591CB0A004DFF3A /* ANSBindCollectionViewVC.m */; };
+		48AC58B42591CB0A004DFF3A /* ANSBindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC584B2591CB0A004DFF3A /* ANSBindTableViewCell.m */; };
+		48AC58B52591CB0A004DFF3A /* ANSBindNormalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC584C2591CB0A004DFF3A /* ANSBindNormalVC.m */; };
+		48AC58B62591CB0A004DFF3A /* ANSBindCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC584D2591CB0A004DFF3A /* ANSBindCollectionCell.m */; };
+		48AC58B72591CB0A004DFF3A /* ANSTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC584E2591CB0A004DFF3A /* ANSTableHeaderFooterView.m */; };
+		48AC58B82591CB0A004DFF3A /* ANSBindTableViewCellTMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC584F2591CB0A004DFF3A /* ANSBindTableViewCellTMP.m */; };
+		48AC58B92591CB0A004DFF3A /* VisualVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58502591CB0A004DFF3A /* VisualVC.m */; };
+		48AC58BA2591CB0A004DFF3A /* VisualVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58512591CB0A004DFF3A /* VisualVC.xib */; };
+		48AC58BB2591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58542591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.xib */; };
+		48AC58BC2591CB0A004DFF3A /* ANSBindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58562591CB0A004DFF3A /* ANSBindTableViewCell.xib */; };
+		48AC58BD2591CB0A004DFF3A /* AllBuryFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC585A2591CB0A004DFF3A /* AllBuryFirstVC.m */; };
+		48AC58BE2591CB0A004DFF3A /* AllBuryThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC585B2591CB0A004DFF3A /* AllBuryThirdVC.xib */; };
+		48AC58BF2591CB0A004DFF3A /* AllBuryThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC585C2591CB0A004DFF3A /* AllBuryThirdVC.m */; };
+		48AC58C02591CB0A004DFF3A /* AllBuryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC585E2591CB0A004DFF3A /* AllBuryVC.xib */; };
+		48AC58C12591CB0A004DFF3A /* AllBurySecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58602591CB0A004DFF3A /* AllBurySecondVC.xib */; };
+		48AC58C22591CB0A004DFF3A /* AllBurySecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58632591CB0A004DFF3A /* AllBurySecondVC.m */; };
+		48AC58C32591CB0A004DFF3A /* AllBuryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58642591CB0A004DFF3A /* AllBuryVC.m */; };
+		48AC58C42591CB0A004DFF3A /* AllBuryFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58652591CB0A004DFF3A /* AllBuryFirstVC.xib */; };
+		48AC58C52591CB0A004DFF3A /* SuperProtertyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58682591CB0A004DFF3A /* SuperProtertyVC.xib */; };
+		48AC58C62591CB0A004DFF3A /* SuperProtertyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58692591CB0A004DFF3A /* SuperProtertyVC.m */; };
+		48AC58C72591CB0A004DFF3A /* PageViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC586B2591CB0A004DFF3A /* PageViewVC.xib */; };
+		48AC58C82591CB0A004DFF3A /* PageThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC586D2591CB0A004DFF3A /* PageThirdVC.xib */; };
+		48AC58C92591CB0A004DFF3A /* PageSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58702591CB0A004DFF3A /* PageSecondVC.m */; };
+		48AC58CA2591CB0B004DFF3A /* PageSecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58712591CB0A004DFF3A /* PageSecondVC.xib */; };
+		48AC58CB2591CB0B004DFF3A /* PageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58722591CB0A004DFF3A /* PageViewVC.m */; };
+		48AC58CC2591CB0B004DFF3A /* PageThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58732591CB0A004DFF3A /* PageThirdVC.m */; };
+		48AC58CD2591CB0B004DFF3A /* PageFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58742591CB0A004DFF3A /* PageFirstVC.m */; };
+		48AC58CE2591CB0B004DFF3A /* PageFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58752591CB0A004DFF3A /* PageFirstVC.xib */; };
+		48AC58CF2591CB0B004DFF3A /* FuncDetailsBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58772591CB0A004DFF3A /* FuncDetailsBaseVC.m */; };
+		48AC58D02591CB0B004DFF3A /* FuncDetailsBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58782591CB0A004DFF3A /* FuncDetailsBaseVC.xib */; };
+		48AC58D12591CB0B004DFF3A /* OtherVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC587B2591CB0A004DFF3A /* OtherVC.xib */; };
+		48AC58D22591CB0B004DFF3A /* OtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC587C2591CB0A004DFF3A /* OtherVC.m */; };
+		48AC58D32591CB0B004DFF3A /* UserIDWithPropertyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC587E2591CB0A004DFF3A /* UserIDWithPropertyVC.xib */; };
+		48AC58D42591CB0B004DFF3A /* UserIDWithPropertyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58802591CB0A004DFF3A /* UserIDWithPropertyVC.m */; };
+		48AC58D52591CB0B004DFF3A /* FastExperienceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58842591CB0A004DFF3A /* FastExperienceVC.m */; };
+		48AC58D62591CB0B004DFF3A /* FastExperienceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58852591CB0A004DFF3A /* FastExperienceVC.xib */; };
+		48AC58D72591CB0B004DFF3A /* AnalysysHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58872591CB0A004DFF3A /* AnalysysHUD.m */; };
+		48AC58D82591CB0B004DFF3A /* AnalysysJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC58892591CB0A004DFF3A /* AnalysysJson.m */; };
+		48AC58D92591CB0B004DFF3A /* AnalysysDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC588D2591CB0A004DFF3A /* AnalysysDataCache.m */; };
+		48AC58DE2591CB28004DFF3A /* main_module.json in Resources */ = {isa = PBXBuildFile; fileRef = 48AC58DD2591CB28004DFF3A /* main_module.json */; };
+		5603715509259106F9E4E6A0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94063CC96F50C78B221AA4F2 /* CoreTelephony.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* ANSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ANSAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* ANSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ANSViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8DD6498D247E1CFC364D968D /* libPods-ANSMpaasPlugin_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB547369FE9A62554C733AC /* libPods-ANSMpaasPlugin_Example.a */; };
+		99C13E3AE8AF8D89A8B7BFE1 /* MPLauncherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BA5AFDB17EAFE94B12BD6 /* MPLauncherAppDelegate.m */; };
+		9FCA609D65B9A89E236902D1 /* DTFrameworkInterface+ANSMpaasPlugin_Example.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA056B2E8BF174D338FD9DB /* DTFrameworkInterface+ANSMpaasPlugin_Example.m */; };
+		BA19CAC026E9FFA3C97C7B0E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91192244552E3AACB22B46 /* MessageUI.framework */; };
+		BBC3477618A5707EDD637A3B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EA2EEB786E9240BCB88BC /* SystemConfiguration.framework */; };
+		EB4C5D7858D8256D5BC4B8A4 /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = 65883CFC1CEFB9C2A54FFD21 /* meta.config */; };
+		FD68926EF6C6200E22E1E4B5 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B248A95CB44ED10124113AF /* MobileRuntime.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = ANSMpaasPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E4634F96A551658BE96C80 /* MPaaSInterface+ANSMpaasPlugin_Example.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+ANSMpaasPlugin_Example.m"; sourceTree = "<group>"; };
+		0F3BA5AFDB17EAFE94B12BD6 /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
+		0FEB7683A18527F1C57920C9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		17E94199EAE29CBF9224C10A /* Pods-ANSMpaasPlugin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANSMpaasPlugin_Example.debug.xcconfig"; path = "Target Support Files/Pods-ANSMpaasPlugin_Example/Pods-ANSMpaasPlugin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		327EA2EEB786E9240BCB88BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		407CC49100BBE72F0DB43911 /* Images_mPaaS.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images_mPaaS.xcassets; sourceTree = "<group>"; };
+		4861FBF82580B45100C3554A /* TestHtml */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestHtml; sourceTree = "<group>"; };
+		48AC58052591CB09004DFF3A /* AnalysysButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysButton.m; sourceTree = "<group>"; };
+		48AC58062591CB09004DFF3A /* AnalysysSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysSwitch.m; sourceTree = "<group>"; };
+		48AC58072591CB09004DFF3A /* AnalysysButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysButton.h; sourceTree = "<group>"; };
+		48AC58082591CB09004DFF3A /* AnalysysSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysSwitch.h; sourceTree = "<group>"; };
+		48AC580A2591CB09004DFF3A /* UIColor+ColorChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorChange.m"; sourceTree = "<group>"; };
+		48AC580B2591CB09004DFF3A /* UIAlertController+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extended.m"; sourceTree = "<group>"; };
+		48AC580C2591CB09004DFF3A /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		48AC580D2591CB09004DFF3A /* UIAlertController+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extended.h"; sourceTree = "<group>"; };
+		48AC580E2591CB09004DFF3A /* UIColor+ColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorChange.h"; sourceTree = "<group>"; };
+		48AC580F2591CB09004DFF3A /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		48AC58112591CB09004DFF3A /* ANSConfigVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSConfigVC.h; sourceTree = "<group>"; };
+		48AC58122591CB09004DFF3A /* ANSConfigVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSConfigVC.xib; sourceTree = "<group>"; };
+		48AC58132591CB09004DFF3A /* ANSConfigVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSConfigVC.m; sourceTree = "<group>"; };
+		48AC58152591CB09004DFF3A /* AnalysysLogDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysLogDetailVC.m; sourceTree = "<group>"; };
+		48AC58162591CB09004DFF3A /* AnalysysLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysLogManager.h; sourceTree = "<group>"; };
+		48AC58172591CB09004DFF3A /* AnalysysLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysLogData.m; sourceTree = "<group>"; };
+		48AC58182591CB09004DFF3A /* AnalysysLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysLogCell.m; sourceTree = "<group>"; };
+		48AC58192591CB09004DFF3A /* AnalysysLogHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysLogHeaderView.h; sourceTree = "<group>"; };
+		48AC581A2591CB09004DFF3A /* AnalysysLogVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysLogVC.m; sourceTree = "<group>"; };
+		48AC581B2591CB09004DFF3A /* AnalysysLogHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalysysLogHeaderView.xib; sourceTree = "<group>"; };
+		48AC581C2591CB09004DFF3A /* AnalysysLogDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalysysLogDetailVC.xib; sourceTree = "<group>"; };
+		48AC581D2591CB09004DFF3A /* AnalysysLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysLogManager.m; sourceTree = "<group>"; };
+		48AC581E2591CB09004DFF3A /* AnalysysLogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalysysLogCell.xib; sourceTree = "<group>"; };
+		48AC581F2591CB09004DFF3A /* AnalysysLogDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysLogDetailVC.h; sourceTree = "<group>"; };
+		48AC58202591CB09004DFF3A /* AnalysysLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysLogCell.h; sourceTree = "<group>"; };
+		48AC58212591CB09004DFF3A /* AnalysysLogData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysLogData.h; sourceTree = "<group>"; };
+		48AC58222591CB09004DFF3A /* AnalysysLogVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysLogVC.h; sourceTree = "<group>"; };
+		48AC58232591CB09004DFF3A /* AnalysysLogHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysLogHeaderView.m; sourceTree = "<group>"; };
+		48AC58252591CB0A004DFF3A /* MainModuleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainModuleVC.xib; sourceTree = "<group>"; };
+		48AC58262591CB0A004DFF3A /* MainModuleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModuleVC.m; sourceTree = "<group>"; };
+		48AC58292591CB0A004DFF3A /* HeatMapFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeatMapFirstVC.m; sourceTree = "<group>"; };
+		48AC582A2591CB0A004DFF3A /* HeatMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatMapVC.h; sourceTree = "<group>"; };
+		48AC582B2591CB0A004DFF3A /* HeatMapFirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeatMapFirstVC.xib; sourceTree = "<group>"; };
+		48AC582C2591CB0A004DFF3A /* HeatMapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeatMapVC.xib; sourceTree = "<group>"; };
+		48AC582D2591CB0A004DFF3A /* HeatMapFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatMapFirstVC.h; sourceTree = "<group>"; };
+		48AC582E2591CB0A004DFF3A /* HeatMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeatMapVC.m; sourceTree = "<group>"; };
+		48AC58302591CB0A004DFF3A /* TrackingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingVC.m; sourceTree = "<group>"; };
+		48AC58312591CB0A004DFF3A /* TrackingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackingVC.xib; sourceTree = "<group>"; };
+		48AC58322591CB0A004DFF3A /* TrackingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingVC.h; sourceTree = "<group>"; };
+		48AC58342591CB0A004DFF3A /* HybridVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridVC.h; sourceTree = "<group>"; };
+		48AC58352591CB0A004DFF3A /* ANSWKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSWKWebViewController.xib; sourceTree = "<group>"; };
+		48AC58362591CB0A004DFF3A /* ANSWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSWKWebViewController.m; sourceTree = "<group>"; };
+		48AC58372591CB0A004DFF3A /* ANSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSWebViewController.h; sourceTree = "<group>"; };
+		48AC58382591CB0A004DFF3A /* HybridVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HybridVC.xib; sourceTree = "<group>"; };
+		48AC58392591CB0A004DFF3A /* HybridVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridVC.m; sourceTree = "<group>"; };
+		48AC583A2591CB0A004DFF3A /* ANSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSWebViewController.m; sourceTree = "<group>"; };
+		48AC583B2591CB0A004DFF3A /* ANSWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSWKWebViewController.h; sourceTree = "<group>"; };
+		48AC583C2591CB0A004DFF3A /* ANSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSWebViewController.xib; sourceTree = "<group>"; };
+		48AC583D2591CB0A004DFF3A /* FuncDetailsBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuncDetailsBaseVC.h; sourceTree = "<group>"; };
+		48AC583F2591CB0A004DFF3A /* VisualVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualVC.h; sourceTree = "<group>"; };
+		48AC58402591CB0A004DFF3A /* ANSBindTableViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSBindTableViewVC.xib; sourceTree = "<group>"; };
+		48AC58412591CB0A004DFF3A /* ANSBindTableViewCellTMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSBindTableViewCellTMP.h; sourceTree = "<group>"; };
+		48AC58422591CB0A004DFF3A /* ANSTableHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSTableHeaderFooterView.h; sourceTree = "<group>"; };
+		48AC58432591CB0A004DFF3A /* ANSBindCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSBindCollectionCell.xib; sourceTree = "<group>"; };
+		48AC58442591CB0A004DFF3A /* ANSBindCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSBindCollectionCell.h; sourceTree = "<group>"; };
+		48AC58452591CB0A004DFF3A /* ANSBindNormalVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSBindNormalVC.xib; sourceTree = "<group>"; };
+		48AC58462591CB0A004DFF3A /* ANSBindTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSBindTableViewVC.m; sourceTree = "<group>"; };
+		48AC58472591CB0A004DFF3A /* ANSBindCollectionViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSBindCollectionViewVC.xib; sourceTree = "<group>"; };
+		48AC58482591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSBindCollectionHeaderFooterView.m; sourceTree = "<group>"; };
+		48AC58492591CB0A004DFF3A /* ANSTableHeaderFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSTableHeaderFooterView.xib; sourceTree = "<group>"; };
+		48AC584A2591CB0A004DFF3A /* ANSBindCollectionViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSBindCollectionViewVC.m; sourceTree = "<group>"; };
+		48AC584B2591CB0A004DFF3A /* ANSBindTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSBindTableViewCell.m; sourceTree = "<group>"; };
+		48AC584C2591CB0A004DFF3A /* ANSBindNormalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSBindNormalVC.m; sourceTree = "<group>"; };
+		48AC584D2591CB0A004DFF3A /* ANSBindCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSBindCollectionCell.m; sourceTree = "<group>"; };
+		48AC584E2591CB0A004DFF3A /* ANSTableHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSTableHeaderFooterView.m; sourceTree = "<group>"; };
+		48AC584F2591CB0A004DFF3A /* ANSBindTableViewCellTMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSBindTableViewCellTMP.m; sourceTree = "<group>"; };
+		48AC58502591CB0A004DFF3A /* VisualVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualVC.m; sourceTree = "<group>"; };
+		48AC58512591CB0A004DFF3A /* VisualVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisualVC.xib; sourceTree = "<group>"; };
+		48AC58522591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSBindCollectionHeaderFooterView.h; sourceTree = "<group>"; };
+		48AC58532591CB0A004DFF3A /* ANSBindTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSBindTableViewVC.h; sourceTree = "<group>"; };
+		48AC58542591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSBindCollectionHeaderFooterView.xib; sourceTree = "<group>"; };
+		48AC58552591CB0A004DFF3A /* ANSBindTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSBindTableViewCell.h; sourceTree = "<group>"; };
+		48AC58562591CB0A004DFF3A /* ANSBindTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSBindTableViewCell.xib; sourceTree = "<group>"; };
+		48AC58572591CB0A004DFF3A /* ANSBindCollectionViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSBindCollectionViewVC.h; sourceTree = "<group>"; };
+		48AC58582591CB0A004DFF3A /* ANSBindNormalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSBindNormalVC.h; sourceTree = "<group>"; };
+		48AC585A2591CB0A004DFF3A /* AllBuryFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBuryFirstVC.m; sourceTree = "<group>"; };
+		48AC585B2591CB0A004DFF3A /* AllBuryThirdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllBuryThirdVC.xib; sourceTree = "<group>"; };
+		48AC585C2591CB0A004DFF3A /* AllBuryThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBuryThirdVC.m; sourceTree = "<group>"; };
+		48AC585D2591CB0A004DFF3A /* AllBurySecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBurySecondVC.h; sourceTree = "<group>"; };
+		48AC585E2591CB0A004DFF3A /* AllBuryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllBuryVC.xib; sourceTree = "<group>"; };
+		48AC585F2591CB0A004DFF3A /* AllBuryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBuryVC.h; sourceTree = "<group>"; };
+		48AC58602591CB0A004DFF3A /* AllBurySecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllBurySecondVC.xib; sourceTree = "<group>"; };
+		48AC58612591CB0A004DFF3A /* AllBuryThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBuryThirdVC.h; sourceTree = "<group>"; };
+		48AC58622591CB0A004DFF3A /* AllBuryFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBuryFirstVC.h; sourceTree = "<group>"; };
+		48AC58632591CB0A004DFF3A /* AllBurySecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBurySecondVC.m; sourceTree = "<group>"; };
+		48AC58642591CB0A004DFF3A /* AllBuryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBuryVC.m; sourceTree = "<group>"; };
+		48AC58652591CB0A004DFF3A /* AllBuryFirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllBuryFirstVC.xib; sourceTree = "<group>"; };
+		48AC58672591CB0A004DFF3A /* SuperProtertyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperProtertyVC.h; sourceTree = "<group>"; };
+		48AC58682591CB0A004DFF3A /* SuperProtertyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperProtertyVC.xib; sourceTree = "<group>"; };
+		48AC58692591CB0A004DFF3A /* SuperProtertyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperProtertyVC.m; sourceTree = "<group>"; };
+		48AC586B2591CB0A004DFF3A /* PageViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageViewVC.xib; sourceTree = "<group>"; };
+		48AC586C2591CB0A004DFF3A /* PageFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageFirstVC.h; sourceTree = "<group>"; };
+		48AC586D2591CB0A004DFF3A /* PageThirdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageThirdVC.xib; sourceTree = "<group>"; };
+		48AC586E2591CB0A004DFF3A /* PageThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageThirdVC.h; sourceTree = "<group>"; };
+		48AC586F2591CB0A004DFF3A /* PageViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewVC.h; sourceTree = "<group>"; };
+		48AC58702591CB0A004DFF3A /* PageSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageSecondVC.m; sourceTree = "<group>"; };
+		48AC58712591CB0A004DFF3A /* PageSecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageSecondVC.xib; sourceTree = "<group>"; };
+		48AC58722591CB0A004DFF3A /* PageViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewVC.m; sourceTree = "<group>"; };
+		48AC58732591CB0A004DFF3A /* PageThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageThirdVC.m; sourceTree = "<group>"; };
+		48AC58742591CB0A004DFF3A /* PageFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageFirstVC.m; sourceTree = "<group>"; };
+		48AC58752591CB0A004DFF3A /* PageFirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageFirstVC.xib; sourceTree = "<group>"; };
+		48AC58762591CB0A004DFF3A /* PageSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageSecondVC.h; sourceTree = "<group>"; };
+		48AC58772591CB0A004DFF3A /* FuncDetailsBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuncDetailsBaseVC.m; sourceTree = "<group>"; };
+		48AC58782591CB0A004DFF3A /* FuncDetailsBaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncDetailsBaseVC.xib; sourceTree = "<group>"; };
+		48AC587A2591CB0A004DFF3A /* OtherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherVC.h; sourceTree = "<group>"; };
+		48AC587B2591CB0A004DFF3A /* OtherVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherVC.xib; sourceTree = "<group>"; };
+		48AC587C2591CB0A004DFF3A /* OtherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherVC.m; sourceTree = "<group>"; };
+		48AC587E2591CB0A004DFF3A /* UserIDWithPropertyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserIDWithPropertyVC.xib; sourceTree = "<group>"; };
+		48AC587F2591CB0A004DFF3A /* UserIDWithPropertyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserIDWithPropertyVC.h; sourceTree = "<group>"; };
+		48AC58802591CB0A004DFF3A /* UserIDWithPropertyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserIDWithPropertyVC.m; sourceTree = "<group>"; };
+		48AC58812591CB0A004DFF3A /* MainModuleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModuleVC.h; sourceTree = "<group>"; };
+		48AC58832591CB0A004DFF3A /* FastExperienceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastExperienceVC.h; sourceTree = "<group>"; };
+		48AC58842591CB0A004DFF3A /* FastExperienceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastExperienceVC.m; sourceTree = "<group>"; };
+		48AC58852591CB0A004DFF3A /* FastExperienceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FastExperienceVC.xib; sourceTree = "<group>"; };
+		48AC58872591CB0A004DFF3A /* AnalysysHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysHUD.m; sourceTree = "<group>"; };
+		48AC58882591CB0A004DFF3A /* AnalysysEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysEnum.h; sourceTree = "<group>"; };
+		48AC58892591CB0A004DFF3A /* AnalysysJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysJson.m; sourceTree = "<group>"; };
+		48AC588A2591CB0A004DFF3A /* AnalysysDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysDataCache.h; sourceTree = "<group>"; };
+		48AC588B2591CB0A004DFF3A /* AnalysysHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysHUD.h; sourceTree = "<group>"; };
+		48AC588C2591CB0A004DFF3A /* AnalysysJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysysJson.h; sourceTree = "<group>"; };
+		48AC588D2591CB0A004DFF3A /* AnalysysDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysysDataCache.m; sourceTree = "<group>"; };
+		48AC58DD2591CB28004DFF3A /* main_module.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main_module.json; sourceTree = "<group>"; };
+		48FAFE51250F20AA00A52386 /* ANSMpaasPlugin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANSMpaasPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		4BCA505FFABD6762623C65F7 /* MPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarController.m; sourceTree = "<group>"; };
+		4E56A6E1831BAF08A628C8AA /* ANSMpaasPlugin_Example-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANSMpaasPlugin_Example-mPaaS-Headers.h"; sourceTree = "<group>"; };
+		56C900F2884272260E62FEE4 /* DemoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* ANSMpaasPlugin_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANSMpaasPlugin_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* ANSMpaasPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ANSMpaasPlugin-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* ANSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANSAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* ANSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANSAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ANSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANSViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ANSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANSViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* ANSMpaasPlugin_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANSMpaasPlugin_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		65883CFC1CEFB9C2A54FFD21 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
+		703A4350776A0DDDC00B3E98 /* Pods-ANSMpaasPlugin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANSMpaasPlugin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ANSMpaasPlugin_Tests/Pods-ANSMpaasPlugin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B248A95CB44ED10124113AF /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		809E9238FC1630E158190D2A /* Pods-ANSMpaasPlugin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANSMpaasPlugin_Tests.release.xcconfig"; path = "Target Support Files/Pods-ANSMpaasPlugin_Tests/Pods-ANSMpaasPlugin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82407745ED01C08CB59994C5 /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94063CC96F50C78B221AA4F2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		9524D1E8E498BCF1F8DDB613 /* MPTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPTabBarController.h; sourceTree = "<group>"; };
+		98FC80347F960197660ABB5A /* ANSMpaasPlugin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ANSMpaasPlugin.podspec; path = ../ANSMpaasPlugin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB547369FE9A62554C733AC /* libPods-ANSMpaasPlugin_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ANSMpaasPlugin_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA2F92F18910854F730D1C1 /* libPods-ANSMpaasPlugin_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ANSMpaasPlugin_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4D4E40176B5E43930A094E /* DemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		AB9EA32CC0151C8113CD4C33 /* DTFrameworkInterface+ANSMpaasPlugin_Example.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+ANSMpaasPlugin_Example.h"; sourceTree = "<group>"; };
+		B273C20EC270F7AD923C67A0 /* Pods-ANSMpaasPlugin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANSMpaasPlugin_Example.release.xcconfig"; path = "Target Support Files/Pods-ANSMpaasPlugin_Example/Pods-ANSMpaasPlugin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B5DB0CBE71771BB05DFF5905 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		C0AC4228F0E0A4E7844C77E9 /* MPaaSInterface+ANSMpaasPlugin_Example.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+ANSMpaasPlugin_Example.h"; sourceTree = "<group>"; };
+		C0C9BB894D9B069A9A009641 /* ANSMpaasPlugin-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ANSMpaasPlugin-Prefix.pch"; path = "../../../ANSMpaasPlugin/ANSMpaasPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		CE91192244552E3AACB22B46 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		CFA056B2E8BF174D338FD9DB /* DTFrameworkInterface+ANSMpaasPlugin_Example.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+ANSMpaasPlugin_Example.m"; sourceTree = "<group>"; };
+		DFBC50E689A6A563BB2315D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EB34A5EC554B49694177DB66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F5F4530638F29712970A4809 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				45FC0F10405F230B93825A8E /* WebKit.framework in Frameworks */,
+				00B3CADCFD496D8B7BD6DBB5 /* CoreMotion.framework in Frameworks */,
+				5603715509259106F9E4E6A0 /* CoreTelephony.framework in Frameworks */,
+				BBC3477618A5707EDD637A3B /* SystemConfiguration.framework in Frameworks */,
+				BA19CAC026E9FFA3C97C7B0E /* MessageUI.framework in Frameworks */,
+				8DD6498D247E1CFC364D968D /* libPods-ANSMpaasPlugin_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				3551847939B679909D69AB92 /* libPods-ANSMpaasPlugin_Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39BE2187B16F9F26F73BB3DE /* mPaas */ = {
+			isa = PBXGroup;
+			children = (
+				C0AC4228F0E0A4E7844C77E9 /* MPaaSInterface+ANSMpaasPlugin_Example.h */,
+				05E4634F96A551658BE96C80 /* MPaaSInterface+ANSMpaasPlugin_Example.m */,
+			);
+			path = mPaas;
+			sourceTree = "<group>";
+		};
+		48AC58042591CB09004DFF3A /* AnalysysGeneralUI */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58052591CB09004DFF3A /* AnalysysButton.m */,
+				48AC58062591CB09004DFF3A /* AnalysysSwitch.m */,
+				48AC58072591CB09004DFF3A /* AnalysysButton.h */,
+				48AC58082591CB09004DFF3A /* AnalysysSwitch.h */,
+			);
+			path = AnalysysGeneralUI;
+			sourceTree = "<group>";
+		};
+		48AC58092591CB09004DFF3A /* AnalysysCategory */ = {
+			isa = PBXGroup;
+			children = (
+				48AC580A2591CB09004DFF3A /* UIColor+ColorChange.m */,
+				48AC580B2591CB09004DFF3A /* UIAlertController+Extended.m */,
+				48AC580C2591CB09004DFF3A /* UIViewController+Alert.m */,
+				48AC580D2591CB09004DFF3A /* UIAlertController+Extended.h */,
+				48AC580E2591CB09004DFF3A /* UIColor+ColorChange.h */,
+				48AC580F2591CB09004DFF3A /* UIViewController+Alert.h */,
+			);
+			path = AnalysysCategory;
+			sourceTree = "<group>";
+		};
+		48AC58102591CB09004DFF3A /* ConfigModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58112591CB09004DFF3A /* ANSConfigVC.h */,
+				48AC58122591CB09004DFF3A /* ANSConfigVC.xib */,
+				48AC58132591CB09004DFF3A /* ANSConfigVC.m */,
+			);
+			path = ConfigModule;
+			sourceTree = "<group>";
+		};
+		48AC58142591CB09004DFF3A /* AnalysysLogManager */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58152591CB09004DFF3A /* AnalysysLogDetailVC.m */,
+				48AC58162591CB09004DFF3A /* AnalysysLogManager.h */,
+				48AC58172591CB09004DFF3A /* AnalysysLogData.m */,
+				48AC58182591CB09004DFF3A /* AnalysysLogCell.m */,
+				48AC58192591CB09004DFF3A /* AnalysysLogHeaderView.h */,
+				48AC581A2591CB09004DFF3A /* AnalysysLogVC.m */,
+				48AC581B2591CB09004DFF3A /* AnalysysLogHeaderView.xib */,
+				48AC581C2591CB09004DFF3A /* AnalysysLogDetailVC.xib */,
+				48AC581D2591CB09004DFF3A /* AnalysysLogManager.m */,
+				48AC581E2591CB09004DFF3A /* AnalysysLogCell.xib */,
+				48AC581F2591CB09004DFF3A /* AnalysysLogDetailVC.h */,
+				48AC58202591CB09004DFF3A /* AnalysysLogCell.h */,
+				48AC58212591CB09004DFF3A /* AnalysysLogData.h */,
+				48AC58222591CB09004DFF3A /* AnalysysLogVC.h */,
+				48AC58232591CB09004DFF3A /* AnalysysLogHeaderView.m */,
+			);
+			path = AnalysysLogManager;
+			sourceTree = "<group>";
+		};
+		48AC58242591CB0A004DFF3A /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58252591CB0A004DFF3A /* MainModuleVC.xib */,
+				48AC58262591CB0A004DFF3A /* MainModuleVC.m */,
+				48AC58272591CB0A004DFF3A /* FuncDetailsModule */,
+				48AC58812591CB0A004DFF3A /* MainModuleVC.h */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		48AC58272591CB0A004DFF3A /* FuncDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58282591CB0A004DFF3A /* HeatMapModule */,
+				48AC582F2591CB0A004DFF3A /* TrackingModule */,
+				48AC58332591CB0A004DFF3A /* HybridModule */,
+				48AC583D2591CB0A004DFF3A /* FuncDetailsBaseVC.h */,
+				48AC583E2591CB0A004DFF3A /* VisualModule */,
+				48AC58592591CB0A004DFF3A /* AllBuryModule */,
+				48AC58662591CB0A004DFF3A /* SuperPropertyModule */,
+				48AC586A2591CB0A004DFF3A /* PageViewModule */,
+				48AC58772591CB0A004DFF3A /* FuncDetailsBaseVC.m */,
+				48AC58782591CB0A004DFF3A /* FuncDetailsBaseVC.xib */,
+				48AC58792591CB0A004DFF3A /* OtherModule */,
+				48AC587D2591CB0A004DFF3A /* UserIDWithPropertyModule */,
+			);
+			path = FuncDetailsModule;
+			sourceTree = "<group>";
+		};
+		48AC58282591CB0A004DFF3A /* HeatMapModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58292591CB0A004DFF3A /* HeatMapFirstVC.m */,
+				48AC582A2591CB0A004DFF3A /* HeatMapVC.h */,
+				48AC582B2591CB0A004DFF3A /* HeatMapFirstVC.xib */,
+				48AC582C2591CB0A004DFF3A /* HeatMapVC.xib */,
+				48AC582D2591CB0A004DFF3A /* HeatMapFirstVC.h */,
+				48AC582E2591CB0A004DFF3A /* HeatMapVC.m */,
+			);
+			path = HeatMapModule;
+			sourceTree = "<group>";
+		};
+		48AC582F2591CB0A004DFF3A /* TrackingModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58302591CB0A004DFF3A /* TrackingVC.m */,
+				48AC58312591CB0A004DFF3A /* TrackingVC.xib */,
+				48AC58322591CB0A004DFF3A /* TrackingVC.h */,
+			);
+			path = TrackingModule;
+			sourceTree = "<group>";
+		};
+		48AC58332591CB0A004DFF3A /* HybridModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58342591CB0A004DFF3A /* HybridVC.h */,
+				48AC58352591CB0A004DFF3A /* ANSWKWebViewController.xib */,
+				48AC58362591CB0A004DFF3A /* ANSWKWebViewController.m */,
+				48AC58372591CB0A004DFF3A /* ANSWebViewController.h */,
+				48AC58382591CB0A004DFF3A /* HybridVC.xib */,
+				48AC58392591CB0A004DFF3A /* HybridVC.m */,
+				48AC583A2591CB0A004DFF3A /* ANSWebViewController.m */,
+				48AC583B2591CB0A004DFF3A /* ANSWKWebViewController.h */,
+				48AC583C2591CB0A004DFF3A /* ANSWebViewController.xib */,
+			);
+			path = HybridModule;
+			sourceTree = "<group>";
+		};
+		48AC583E2591CB0A004DFF3A /* VisualModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC583F2591CB0A004DFF3A /* VisualVC.h */,
+				48AC58402591CB0A004DFF3A /* ANSBindTableViewVC.xib */,
+				48AC58412591CB0A004DFF3A /* ANSBindTableViewCellTMP.h */,
+				48AC58422591CB0A004DFF3A /* ANSTableHeaderFooterView.h */,
+				48AC58432591CB0A004DFF3A /* ANSBindCollectionCell.xib */,
+				48AC58442591CB0A004DFF3A /* ANSBindCollectionCell.h */,
+				48AC58452591CB0A004DFF3A /* ANSBindNormalVC.xib */,
+				48AC58462591CB0A004DFF3A /* ANSBindTableViewVC.m */,
+				48AC58472591CB0A004DFF3A /* ANSBindCollectionViewVC.xib */,
+				48AC58482591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.m */,
+				48AC58492591CB0A004DFF3A /* ANSTableHeaderFooterView.xib */,
+				48AC584A2591CB0A004DFF3A /* ANSBindCollectionViewVC.m */,
+				48AC584B2591CB0A004DFF3A /* ANSBindTableViewCell.m */,
+				48AC584C2591CB0A004DFF3A /* ANSBindNormalVC.m */,
+				48AC584D2591CB0A004DFF3A /* ANSBindCollectionCell.m */,
+				48AC584E2591CB0A004DFF3A /* ANSTableHeaderFooterView.m */,
+				48AC584F2591CB0A004DFF3A /* ANSBindTableViewCellTMP.m */,
+				48AC58502591CB0A004DFF3A /* VisualVC.m */,
+				48AC58512591CB0A004DFF3A /* VisualVC.xib */,
+				48AC58522591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.h */,
+				48AC58532591CB0A004DFF3A /* ANSBindTableViewVC.h */,
+				48AC58542591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.xib */,
+				48AC58552591CB0A004DFF3A /* ANSBindTableViewCell.h */,
+				48AC58562591CB0A004DFF3A /* ANSBindTableViewCell.xib */,
+				48AC58572591CB0A004DFF3A /* ANSBindCollectionViewVC.h */,
+				48AC58582591CB0A004DFF3A /* ANSBindNormalVC.h */,
+			);
+			path = VisualModule;
+			sourceTree = "<group>";
+		};
+		48AC58592591CB0A004DFF3A /* AllBuryModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC585A2591CB0A004DFF3A /* AllBuryFirstVC.m */,
+				48AC585B2591CB0A004DFF3A /* AllBuryThirdVC.xib */,
+				48AC585C2591CB0A004DFF3A /* AllBuryThirdVC.m */,
+				48AC585D2591CB0A004DFF3A /* AllBurySecondVC.h */,
+				48AC585E2591CB0A004DFF3A /* AllBuryVC.xib */,
+				48AC585F2591CB0A004DFF3A /* AllBuryVC.h */,
+				48AC58602591CB0A004DFF3A /* AllBurySecondVC.xib */,
+				48AC58612591CB0A004DFF3A /* AllBuryThirdVC.h */,
+				48AC58622591CB0A004DFF3A /* AllBuryFirstVC.h */,
+				48AC58632591CB0A004DFF3A /* AllBurySecondVC.m */,
+				48AC58642591CB0A004DFF3A /* AllBuryVC.m */,
+				48AC58652591CB0A004DFF3A /* AllBuryFirstVC.xib */,
+			);
+			path = AllBuryModule;
+			sourceTree = "<group>";
+		};
+		48AC58662591CB0A004DFF3A /* SuperPropertyModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58672591CB0A004DFF3A /* SuperProtertyVC.h */,
+				48AC58682591CB0A004DFF3A /* SuperProtertyVC.xib */,
+				48AC58692591CB0A004DFF3A /* SuperProtertyVC.m */,
+			);
+			path = SuperPropertyModule;
+			sourceTree = "<group>";
+		};
+		48AC586A2591CB0A004DFF3A /* PageViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC586B2591CB0A004DFF3A /* PageViewVC.xib */,
+				48AC586C2591CB0A004DFF3A /* PageFirstVC.h */,
+				48AC586D2591CB0A004DFF3A /* PageThirdVC.xib */,
+				48AC586E2591CB0A004DFF3A /* PageThirdVC.h */,
+				48AC586F2591CB0A004DFF3A /* PageViewVC.h */,
+				48AC58702591CB0A004DFF3A /* PageSecondVC.m */,
+				48AC58712591CB0A004DFF3A /* PageSecondVC.xib */,
+				48AC58722591CB0A004DFF3A /* PageViewVC.m */,
+				48AC58732591CB0A004DFF3A /* PageThirdVC.m */,
+				48AC58742591CB0A004DFF3A /* PageFirstVC.m */,
+				48AC58752591CB0A004DFF3A /* PageFirstVC.xib */,
+				48AC58762591CB0A004DFF3A /* PageSecondVC.h */,
+			);
+			path = PageViewModule;
+			sourceTree = "<group>";
+		};
+		48AC58792591CB0A004DFF3A /* OtherModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC587A2591CB0A004DFF3A /* OtherVC.h */,
+				48AC587B2591CB0A004DFF3A /* OtherVC.xib */,
+				48AC587C2591CB0A004DFF3A /* OtherVC.m */,
+			);
+			path = OtherModule;
+			sourceTree = "<group>";
+		};
+		48AC587D2591CB0A004DFF3A /* UserIDWithPropertyModule */ = {
+			isa = PBXGroup;
+			children = (
+				48AC587E2591CB0A004DFF3A /* UserIDWithPropertyVC.xib */,
+				48AC587F2591CB0A004DFF3A /* UserIDWithPropertyVC.h */,
+				48AC58802591CB0A004DFF3A /* UserIDWithPropertyVC.m */,
+			);
+			path = UserIDWithPropertyModule;
+			sourceTree = "<group>";
+		};
+		48AC58822591CB0A004DFF3A /* FastExperience */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58832591CB0A004DFF3A /* FastExperienceVC.h */,
+				48AC58842591CB0A004DFF3A /* FastExperienceVC.m */,
+				48AC58852591CB0A004DFF3A /* FastExperienceVC.xib */,
+			);
+			path = FastExperience;
+			sourceTree = "<group>";
+		};
+		48AC58862591CB0A004DFF3A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58872591CB0A004DFF3A /* AnalysysHUD.m */,
+				48AC58882591CB0A004DFF3A /* AnalysysEnum.h */,
+				48AC58892591CB0A004DFF3A /* AnalysysJson.m */,
+				48AC588A2591CB0A004DFF3A /* AnalysysDataCache.h */,
+				48AC588B2591CB0A004DFF3A /* AnalysysHUD.h */,
+				48AC588C2591CB0A004DFF3A /* AnalysysJson.h */,
+				48AC588D2591CB0A004DFF3A /* AnalysysDataCache.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		48AC58DC2591CB28004DFF3A /* ANSResource */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58DD2591CB28004DFF3A /* main_module.json */,
+			);
+			path = ANSResource;
+			sourceTree = "<group>";
+		};
+		48FAFE33250F1D0B00A52386 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				4861FBF82580B45100C3554A /* TestHtml */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		5D0BAD2B9E6CC0A511ACBF13 /* MPaaS */ = {
+			isa = PBXGroup;
+			children = (
+				902F111C95E760A6648C9367 /* Targets */,
+			);
+			path = MPaaS;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for ANSMpaasPlugin */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				E309E5F220F7EF5329023CF3 /* Pods */,
+				5D0BAD2B9E6CC0A511ACBF13 /* MPaaS */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* ANSMpaasPlugin_Example.app */,
+				6003F5AE195388D20070C39A /* ANSMpaasPlugin_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				C9A3ED7A13330409ADE34DBC /* iOS */,
+				9DB547369FE9A62554C733AC /* libPods-ANSMpaasPlugin_Example.a */,
+				9EA2F92F18910854F730D1C1 /* libPods-ANSMpaasPlugin_Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for ANSMpaasPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				48AC58092591CB09004DFF3A /* AnalysysCategory */,
+				48AC58042591CB09004DFF3A /* AnalysysGeneralUI */,
+				48AC58142591CB09004DFF3A /* AnalysysLogManager */,
+				48AC58102591CB09004DFF3A /* ConfigModule */,
+				48AC58822591CB0A004DFF3A /* FastExperience */,
+				48AC58242591CB0A004DFF3A /* MainModule */,
+				48AC58862591CB0A004DFF3A /* Utils */,
+				6003F59C195388D20070C39A /* ANSAppDelegate.h */,
+				6003F59D195388D20070C39A /* ANSAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* ANSViewController.h */,
+				6003F5A6195388D20070C39A /* ANSViewController.m */,
+				48AC58DC2591CB28004DFF3A /* ANSResource */,
+				48FAFE33250F1D0B00A52386 /* Template */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for ANSMpaasPlugin";
+			path = ANSMpaasPlugin;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* ANSMpaasPlugin-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				48FAFE51250F20AA00A52386 /* ANSMpaasPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				98FC80347F960197660ABB5A /* ANSMpaasPlugin.podspec */,
+				EB34A5EC554B49694177DB66 /* README.md */,
+				DFBC50E689A6A563BB2315D6 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		66BFC0C6BAFC2804BF8E9987 /* APMobileFramework */ = {
+			isa = PBXGroup;
+			children = (
+				AB9EA32CC0151C8113CD4C33 /* DTFrameworkInterface+ANSMpaasPlugin_Example.h */,
+				CFA056B2E8BF174D338FD9DB /* DTFrameworkInterface+ANSMpaasPlugin_Example.m */,
+				7B248A95CB44ED10124113AF /* MobileRuntime.plist */,
+				407CC49100BBE72F0DB43911 /* Images_mPaaS.xcassets */,
+				82407745ED01C08CB59994C5 /* MPLauncherAppDelegate.h */,
+				0F3BA5AFDB17EAFE94B12BD6 /* MPLauncherAppDelegate.m */,
+				9524D1E8E498BCF1F8DDB613 /* MPTabBarController.h */,
+				4BCA505FFABD6762623C65F7 /* MPTabBarController.m */,
+				9F4D4E40176B5E43930A094E /* DemoViewController.h */,
+				56C900F2884272260E62FEE4 /* DemoViewController.m */,
+			);
+			path = APMobileFramework;
+			sourceTree = "<group>";
+		};
+		73898E5DDC20E4D39156F06F /* ANSMpaasPlugin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				65883CFC1CEFB9C2A54FFD21 /* meta.config */,
+				B5DB0CBE71771BB05DFF5905 /* yw_1222.jpg */,
+				4E56A6E1831BAF08A628C8AA /* ANSMpaasPlugin_Example-mPaaS-Headers.h */,
+				39BE2187B16F9F26F73BB3DE /* mPaas */,
+				66BFC0C6BAFC2804BF8E9987 /* APMobileFramework */,
+				C0C9BB894D9B069A9A009641 /* ANSMpaasPlugin-Prefix.pch */,
+			);
+			path = ANSMpaasPlugin_Example;
+			sourceTree = "<group>";
+		};
+		902F111C95E760A6648C9367 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				73898E5DDC20E4D39156F06F /* ANSMpaasPlugin_Example */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		C9A3ED7A13330409ADE34DBC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0FEB7683A18527F1C57920C9 /* WebKit.framework */,
+				F5F4530638F29712970A4809 /* CoreMotion.framework */,
+				94063CC96F50C78B221AA4F2 /* CoreTelephony.framework */,
+				327EA2EEB786E9240BCB88BC /* SystemConfiguration.framework */,
+				CE91192244552E3AACB22B46 /* MessageUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E309E5F220F7EF5329023CF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17E94199EAE29CBF9224C10A /* Pods-ANSMpaasPlugin_Example.debug.xcconfig */,
+				B273C20EC270F7AD923C67A0 /* Pods-ANSMpaasPlugin_Example.release.xcconfig */,
+				703A4350776A0DDDC00B3E98 /* Pods-ANSMpaasPlugin_Tests.debug.xcconfig */,
+				809E9238FC1630E158190D2A /* Pods-ANSMpaasPlugin_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* ANSMpaasPlugin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ANSMpaasPlugin_Example" */;
+			buildPhases = (
+				0AE1F4AED13A9CBF24D4738C /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				14D3A6ECD1AFE136FDE70177 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANSMpaasPlugin_Example;
+			productName = ANSMpaasPlugin;
+			productReference = 6003F58A195388D20070C39A /* ANSMpaasPlugin_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* ANSMpaasPlugin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ANSMpaasPlugin_Tests" */;
+			buildPhases = (
+				E65BE0766C8EE32B86BA7AE9 /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = ANSMpaasPlugin_Tests;
+			productName = ANSMpaasPluginTests;
+			productReference = 6003F5AE195388D20070C39A /* ANSMpaasPlugin_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ANS;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaoxu1234;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = LJHDHDMM85;
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ANSMpaasPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* ANSMpaasPlugin_Example */,
+				6003F5AD195388D20070C39A /* ANSMpaasPlugin_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AC58D12591CB0B004DFF3A /* OtherVC.xib in Resources */,
+				48AC58AB2591CB0A004DFF3A /* ANSWebViewController.xib in Resources */,
+				48AC58A82591CB0A004DFF3A /* HybridVC.xib in Resources */,
+				48AC58C72591CB0A004DFF3A /* PageViewVC.xib in Resources */,
+				48AC58A62591CB0A004DFF3A /* ANSWKWebViewController.xib in Resources */,
+				48AC58BB2591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.xib in Resources */,
+				48AC58B02591CB0A004DFF3A /* ANSBindCollectionViewVC.xib in Resources */,
+				48AC58D32591CB0B004DFF3A /* UserIDWithPropertyVC.xib in Resources */,
+				48AC58AD2591CB0A004DFF3A /* ANSBindCollectionCell.xib in Resources */,
+				48AC58C12591CB0A004DFF3A /* AllBurySecondVC.xib in Resources */,
+				48AC589C2591CB0A004DFF3A /* AnalysysLogCell.xib in Resources */,
+				48AC58BC2591CB0A004DFF3A /* ANSBindTableViewCell.xib in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				4861FBF92580B45100C3554A /* TestHtml in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				48AC58C82591CB0A004DFF3A /* PageThirdVC.xib in Resources */,
+				48AC58D62591CB0B004DFF3A /* FastExperienceVC.xib in Resources */,
+				48AC58D02591CB0B004DFF3A /* FuncDetailsBaseVC.xib in Resources */,
+				48AC58BE2591CB0A004DFF3A /* AllBuryThirdVC.xib in Resources */,
+				48AC58992591CB0A004DFF3A /* AnalysysLogHeaderView.xib in Resources */,
+				48AC58A52591CB0A004DFF3A /* TrackingVC.xib in Resources */,
+				48AC58AC2591CB0A004DFF3A /* ANSBindTableViewVC.xib in Resources */,
+				48AC58AE2591CB0A004DFF3A /* ANSBindNormalVC.xib in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				48AC58BA2591CB0A004DFF3A /* VisualVC.xib in Resources */,
+				48AC58C52591CB0A004DFF3A /* SuperProtertyVC.xib in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				48AC58CA2591CB0B004DFF3A /* PageSecondVC.xib in Resources */,
+				48AC58A22591CB0A004DFF3A /* HeatMapVC.xib in Resources */,
+				48AC58C02591CB0A004DFF3A /* AllBuryVC.xib in Resources */,
+				EB4C5D7858D8256D5BC4B8A4 /* meta.config in Resources */,
+				48AC58B22591CB0A004DFF3A /* ANSTableHeaderFooterView.xib in Resources */,
+				48AC58A12591CB0A004DFF3A /* HeatMapFirstVC.xib in Resources */,
+				0E9830CDAE7AE53F429E83BA /* yw_1222.jpg in Resources */,
+				FD68926EF6C6200E22E1E4B5 /* MobileRuntime.plist in Resources */,
+				3240E637B3F80451E1B05396 /* Images_mPaaS.xcassets in Resources */,
+				48AC589E2591CB0A004DFF3A /* MainModuleVC.xib in Resources */,
+				48AC589A2591CB0A004DFF3A /* AnalysysLogDetailVC.xib in Resources */,
+				48AC58932591CB0A004DFF3A /* ANSConfigVC.xib in Resources */,
+				48AC58C42591CB0A004DFF3A /* AllBuryFirstVC.xib in Resources */,
+				48AC58DE2591CB28004DFF3A /* main_module.json in Resources */,
+				48AC58CE2591CB0B004DFF3A /* PageFirstVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AE1F4AED13A9CBF24D4738C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ANSMpaasPlugin_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14D3A6ECD1AFE136FDE70177 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ANSMpaasPlugin_Example/Pods-ANSMpaasPlugin_Example-resources.sh",
+				"${PODS_ROOT}/../../ANSMpaasPlugin/Assets/AnalysysWKWebPlugins.bundle",
+				"${PODS_ROOT}/APMobileFramework/APMobileFramework.framework/APMobileFramework.bundle",
+				"${PODS_ROOT}/APMobileNetwork/APMobileNetwork.framework/APMobileNetwork.bundle",
+				"${PODS_ROOT}/APRemoteLogging/APRemoteLogging.framework/APRemoteLogging.bundle",
+				"${PODS_ROOT}/AnalysysAgent/AnalysysSDK/Resources/AnalysysAgent.bundle",
+				"${PODS_ROOT}/AntUI/AntUI.framework/APCommonUI.bundle",
+				"${PODS_ROOT}/MPNebulaAdapter/MPNebulaAdapter.framework/MPInternalPlugins.bundle",
+				"${PODS_ROOT}/MPNebulaAdapter/MPNebulaAdapter.framework/MPInternalPresetApps.bundle",
+				"${PODS_ROOT}/MPNebulaAdapter/MPNebulaAdapter.framework/MPNebulaAdapter.bundle",
+				"${PODS_ROOT}/NebulaAppManager/NebulaAppManager.framework/NebulaAppManager.bundle",
+				"${PODS_ROOT}/NebulaBiz/NebulaBiz.framework/NebulaBiz.bundle",
+				"${PODS_ROOT}/NebulaBiz/NebulaBiz.framework/NebulaPoseidon.bundle",
+				"${PODS_ROOT}/NebulaConfig/NebulaConfig.framework/NebulaConfig.bundle",
+				"${PODS_ROOT}/NebulaKernel/NebulaKernel.framework/NebulaKernel.bundle",
+				"${PODS_ROOT}/NebulaLogging/NebulaLogging.framework/NebulaLogging.bundle",
+				"${PODS_ROOT}/NebulaSDK/NebulaSDK.framework/NebulaSDK.bundle",
+				"${PODS_ROOT}/NebulaTinyapp/NebulaTinyapp.framework/NebulaTinyapp.bundle",
+				"${PODS_ROOT}/TTTAttributedLabel/TTTAttributedLabel.framework/TTTAttributedLabel.bundle",
+				"${PODS_ROOT}/TinyAppCommon/TinyAppCommon.framework/TinyAppCommon.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnalysysWKWebPlugins.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/APMobileFramework.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/APMobileNetwork.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/APRemoteLogging.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnalysysAgent.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/APCommonUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPInternalPlugins.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPInternalPresetApps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPNebulaAdapter.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NebulaAppManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NebulaBiz.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NebulaPoseidon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NebulaConfig.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NebulaKernel.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NebulaLogging.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NebulaSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NebulaTinyapp.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TTTAttributedLabel.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TinyAppCommon.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ANSMpaasPlugin_Example/Pods-ANSMpaasPlugin_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65BE0766C8EE32B86BA7AE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ANSMpaasPlugin_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AC58952591CB0A004DFF3A /* AnalysysLogDetailVC.m in Sources */,
+				48AC58CC2591CB0B004DFF3A /* PageThirdVC.m in Sources */,
+				48AC58922591CB0A004DFF3A /* UIViewController+Alert.m in Sources */,
+				48AC58D22591CB0B004DFF3A /* OtherVC.m in Sources */,
+				48AC58BD2591CB0A004DFF3A /* AllBuryFirstVC.m in Sources */,
+				6003F59E195388D20070C39A /* ANSAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* ANSViewController.m in Sources */,
+				48AC589D2591CB0A004DFF3A /* AnalysysLogHeaderView.m in Sources */,
+				48AC58CD2591CB0B004DFF3A /* PageFirstVC.m in Sources */,
+				48AC58B42591CB0A004DFF3A /* ANSBindTableViewCell.m in Sources */,
+				48AC58B32591CB0A004DFF3A /* ANSBindCollectionViewVC.m in Sources */,
+				48AC58A32591CB0A004DFF3A /* HeatMapVC.m in Sources */,
+				48AC58C62591CB0A004DFF3A /* SuperProtertyVC.m in Sources */,
+				48AC58B62591CB0A004DFF3A /* ANSBindCollectionCell.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				48AC589B2591CB0A004DFF3A /* AnalysysLogManager.m in Sources */,
+				48AC58C92591CB0A004DFF3A /* PageSecondVC.m in Sources */,
+				16358D6020D6B9D9F95C8441 /* MPaaSInterface+ANSMpaasPlugin_Example.m in Sources */,
+				48AC58972591CB0A004DFF3A /* AnalysysLogCell.m in Sources */,
+				48AC58D72591CB0B004DFF3A /* AnalysysHUD.m in Sources */,
+				48AC58D92591CB0B004DFF3A /* AnalysysDataCache.m in Sources */,
+				48AC58D82591CB0B004DFF3A /* AnalysysJson.m in Sources */,
+				48AC58982591CB0A004DFF3A /* AnalysysLogVC.m in Sources */,
+				48AC58B52591CB0A004DFF3A /* ANSBindNormalVC.m in Sources */,
+				48AC58CF2591CB0B004DFF3A /* FuncDetailsBaseVC.m in Sources */,
+				48AC58942591CB0A004DFF3A /* ANSConfigVC.m in Sources */,
+				48AC58D42591CB0B004DFF3A /* UserIDWithPropertyVC.m in Sources */,
+				48AC58B72591CB0A004DFF3A /* ANSTableHeaderFooterView.m in Sources */,
+				9FCA609D65B9A89E236902D1 /* DTFrameworkInterface+ANSMpaasPlugin_Example.m in Sources */,
+				48AC58902591CB0A004DFF3A /* UIColor+ColorChange.m in Sources */,
+				48AC58B12591CB0A004DFF3A /* ANSBindCollectionHeaderFooterView.m in Sources */,
+				48AC58C22591CB0A004DFF3A /* AllBurySecondVC.m in Sources */,
+				48AC58AF2591CB0A004DFF3A /* ANSBindTableViewVC.m in Sources */,
+				48AC58A92591CB0A004DFF3A /* HybridVC.m in Sources */,
+				48AC58B82591CB0A004DFF3A /* ANSBindTableViewCellTMP.m in Sources */,
+				48AC58BF2591CB0A004DFF3A /* AllBuryThirdVC.m in Sources */,
+				48AC588F2591CB0A004DFF3A /* AnalysysSwitch.m in Sources */,
+				48AC588E2591CB0A004DFF3A /* AnalysysButton.m in Sources */,
+				48AC58AA2591CB0A004DFF3A /* ANSWebViewController.m in Sources */,
+				99C13E3AE8AF8D89A8B7BFE1 /* MPLauncherAppDelegate.m in Sources */,
+				48AC58962591CB0A004DFF3A /* AnalysysLogData.m in Sources */,
+				48AC58D52591CB0B004DFF3A /* FastExperienceVC.m in Sources */,
+				48AC58CB2591CB0B004DFF3A /* PageViewVC.m in Sources */,
+				48AC58912591CB0A004DFF3A /* UIAlertController+Extended.m in Sources */,
+				48AC58A42591CB0A004DFF3A /* TrackingVC.m in Sources */,
+				48AC58B92591CB0A004DFF3A /* VisualVC.m in Sources */,
+				48AC58C32591CB0A004DFF3A /* AllBuryVC.m in Sources */,
+				48AC58A72591CB0A004DFF3A /* ANSWKWebViewController.m in Sources */,
+				48AC58A02591CB0A004DFF3A /* HeatMapFirstVC.m in Sources */,
+				2C55644BDCB72BC7BC4A6F13 /* MPTabBarController.m in Sources */,
+				48AC589F2591CB0A004DFF3A /* MainModuleVC.m in Sources */,
+				1FD22A6F6BFA71B2D07359F7 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* ANSMpaasPlugin_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E94199EAE29CBF9224C10A /* Pods-ANSMpaasPlugin_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEVELOPMENT_TEAM = LJHDHDMM85;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANSMpaasPlugin/ANSMpaasPlugin-Prefix.pch";
+				INFOPLIST_FILE = "ANSMpaasPlugin/ANSMpaasPlugin-Info.plist";
+				MARKETING_VERSION = 0.0.1;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.analysys.ANSMpaasDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B273C20EC270F7AD923C67A0 /* Pods-ANSMpaasPlugin_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEVELOPMENT_TEAM = LJHDHDMM85;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANSMpaasPlugin/ANSMpaasPlugin-Prefix.pch";
+				INFOPLIST_FILE = "ANSMpaasPlugin/ANSMpaasPlugin-Info.plist";
+				MARKETING_VERSION = 0.0.1;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.analysys.ANSMpaasDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703A4350776A0DDDC00B3E98 /* Pods-ANSMpaasPlugin_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANSMpaasPlugin_Example.app/ANSMpaasPlugin_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809E9238FC1630E158190D2A /* Pods-ANSMpaasPlugin_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANSMpaasPlugin_Example.app/ANSMpaasPlugin_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ANSMpaasPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ANSMpaasPlugin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ANSMpaasPlugin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}
