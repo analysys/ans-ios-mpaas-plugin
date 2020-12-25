@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "ans-ios-mpaas-plugin"
+  s.name         = "ANSMpaasPlugin"
   s.version      = "0.0.1"
   s.summary      = "易观 iOS mPaaS 插件"
   s.homepage     = "https://github.com/analysys/ans-ios-mpaas-plugin"
