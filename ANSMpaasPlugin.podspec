@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   
   s.resource = 'ANSMpaasPlugin/Assets/AnalysysWKWebPlugins.bundle'
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'ANSMpaasPlugin/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'NebulaPoseidon'
   s.dependency 'NebulaSDK'
