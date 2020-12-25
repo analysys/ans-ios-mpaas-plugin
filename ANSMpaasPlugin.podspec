@@ -24,13 +24,12 @@ Pod::Spec.new do |s|
   
   s.resource = 'ANSMpaasPlugin/Assets/AnalysysWKWebPlugins.bundle'
 
-  s.public_header_files = 'ANSMpaasPlugin/Classes/**/*.h'
-
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.public_header_files = 'Pod/Classes/**/*.h'
   
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'NebulaPoseidon'
+
   s.dependency 'NebulaSDK'
+  s.dependency 'NebulaPoseidon'
   s.dependency 'AnalysysAgent'
   
 end

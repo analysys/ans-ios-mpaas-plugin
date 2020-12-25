@@ -12,6 +12,7 @@ target 'ANSMpaasPlugin_Example' do
   remove_pod "mPaaS_MBProgressHud"
   
   mPaaS_pod 'mPaaS_Nebula'
+  
   pod 'ANSMpaasPlugin', :path => '../'
   pod 'AnalysysAgent', '4.5.4' 
   pod 'Bugly'
