@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ANSMpaasPlugin/Classes/**/*'
+  s.source_files = 'ANSMpaasPlugin/Classes/**/*.{h,m}'
   
   s.resource = 'ANSMpaasPlugin/Assets/AnalysysWKWebPlugins.bundle'
 
